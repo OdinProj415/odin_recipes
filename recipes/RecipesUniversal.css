@@ -3,3 +3,39 @@
   font-weight: 400;
   font-style: normal;
 }
+
+a:link {
+  color: black;
+  text-decoration: dotted;
+}
+
+a:visited {
+  color: black;
+  text-decoration: dotted;
+}
+
+a:hover {
+  color: #787878;
+  text-decoration: dotted;
+}
+ 
+a:active {
+  color:rgb(200, 200, 200);
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  display:inline-flex;
+  margin-left: none;
+  margin-right: 10px;
+}
+
+button:hover {
+  color: rgb(120, 120, 120);
+}
+
+button:active {
+  color:rgb(200, 200, 200);
+}
